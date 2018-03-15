@@ -1,4 +1,5 @@
 def oxford_comma(array)
+  string = ""
   if array.count == 1
     array[0]
   elsif array.count == 2
