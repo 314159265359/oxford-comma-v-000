@@ -6,10 +6,10 @@ def oxford_comma(array)
   elsif array.count == 2
     array[0] + " and " + array[1]
   else
-    array
+    # array
     # holder = array.pop
     # array.pop
-    #string = "#{[array].join(", ")}"
+    string = "#{[array].join(", ")}"
     #string = string + " and " + array.last
    end
   # else #array.count > 1
