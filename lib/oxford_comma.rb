@@ -4,6 +4,7 @@ def oxford_comma(array)
     "#{[array].join(",")}"
   elsif array.count == 2
     array[0] + " and " + array[1]
+  else nil
   # else #array.count > 1
   #   array.each do |element|
   end
