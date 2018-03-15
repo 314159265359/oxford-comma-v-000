@@ -14,8 +14,8 @@ def oxford_comma(array)
       array.each do |element|
       string = string + ", " + element
     end
-    string = string + " and " + array[counter]
-    string
+    # string = string + " and " + array[counter]
+    # string
   end
-  
+
 end
