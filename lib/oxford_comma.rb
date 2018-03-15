@@ -8,7 +8,7 @@ def oxford_comma(array)
   else
     # array
     holder = array.pop
-    array.pop
+    #array.pop
     string = "#{[array].join(", ")}"
     string = string + " and " + holder
    end
