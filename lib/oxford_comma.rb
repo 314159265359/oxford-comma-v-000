@@ -14,5 +14,5 @@ def oxford_comma(array)
    end
   # else #array.count > 1
   #   array.each do |element|
-  end
+  
 end
