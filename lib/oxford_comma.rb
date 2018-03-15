@@ -9,7 +9,7 @@ def oxford_comma(array)
     # holder = array.pop
     # array.pop
     string = "#{[array].join(", ")}"
-    string = string + " and " + array.last
+    #string = string + " and " + array.last
    end
   # else #array.count > 1
   #   array.each do |element|
