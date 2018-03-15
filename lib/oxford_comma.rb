@@ -16,4 +16,5 @@ def oxford_comma(array)
     end
     string = string + " and " + array[counter]
   end
+  string
 end
