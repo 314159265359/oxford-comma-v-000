@@ -5,8 +5,12 @@ def oxford_comma(array)
     #{}"#{[array].join(",")}"
   elsif array.count == 2
     array[0] + " and " + array[1]
-  else 
-    "#{[array].join(", ")}"
+  else
+    holder = array.pop
+    array.pop
+    string = "#{[array].join(", ")}"
+    string = string + " and " + holder
+   end
   # else #array.count > 1
   #   array.each do |element|
   end
