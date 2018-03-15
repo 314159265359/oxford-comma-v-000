@@ -4,7 +4,6 @@ def oxford_comma(array)
     "#{[array].join(",")}"
     end
   when array.count > 1
-  array.each do |element|
-
+    array.each do |element|
   end
 end
